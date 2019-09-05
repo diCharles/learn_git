@@ -1,17 +1,19 @@
-ws_init();
+#include <stdio.h>
 
-ws_Deinit();
+void ws_init( int arg1);
+
+void ws_Deinit( void);
 
 int main()
 {
-	ws_init();
+	int a = 0;
+	ws_init(a);
 
 }
-ws_init()
+void ws_init( int arg1)
 {
 	// INIT SPECIFIC HARWARE
 }
-ws_Deinit()
-{
+void ws_Deinit( void ){
 	// de INIT SPECIFIC HARWARE
 }
