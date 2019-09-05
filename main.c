@@ -10,7 +10,7 @@ int main()
 	ws_init(a);
 
 }
-void ws_init( int arg1)
+void ws_init( int arg1)// do not pass bad parameter
 {
 	// INIT SPECIFIC HARWARE
 }
