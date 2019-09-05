@@ -16,4 +16,11 @@ void ws_init( int arg1)
 }
 void ws_Deinit( void ){
 	// de INIT SPECIFIC HARWARE
+
+	// set free TPM
+
+	// set free ADC
+
+	// todo: DEinti funct for ADC
+
 }
